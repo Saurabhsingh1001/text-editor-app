@@ -1,0 +1,49 @@
+.movie-ticket-booking {
+  /* text-align: center; */
+  
+  padding: 20px;
+  margin-left:20%;
+}
+
+h2 {
+  font-size: 24px;
+  margin-left:25%;
+}
+
+.seat-grid {
+  display: grid;
+  grid-template-columns: repeat(25, 40px); /* Update to 25 columns */
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selected-seats {
+  margin-top: 20px;
+}
+
+/* Default seat style */
+.seat {
+  width: 38px; /* Decrease width to add a gap between seats */
+  height: 38px; /* Decrease height to add a gap between seats */
+  background-color: rgba(128, 128, 128, 0.5); /* Gray with transparency */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s ease; /* Add transition for smooth color change */
+  border-radius: 10px; /* Add rounded edges */
+  margin: 2px; /* Add a small margin to create a gap between seats */
+}
+
+/* Selected seat style */
+.seat.selected {
+  background-color: #4caf50; /* Green */
+  color: #fff;
+}

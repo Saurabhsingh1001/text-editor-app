@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.navbar-brand{
+  color:blue;
+  
+}
+#mainHead{
+  font-size: 36px;
+}
+
+.navbar-brand :hover{
+  color:brown;
+}
+
+.nav-link dropdown-toggle{
+  color:red;
+}
+
+#home-col{
+  color:red;
+}
+
+.button-spacing{
+
+  margin:6px;
+}
+
+.button-spacing1{
+  margin-left:70%;
+}
+
+button-spacing1 :hover{
+  background-color: burlywood;
+}
+
+/* Default (light) mode styles */
+body {
+  background-color: #fff; /* Background color for light mode */
+  color: #333; /* Text color for light mode */
+}
+
+body.dark-mode {
+  background-color: #333; /* Background color for dark mode */
+  color: #fff; /* Text color for dark mode */
+}
+
+/* Dark mode button styles */
+.btn-dark-mode {
+  background-color: #333; /* Button background color for dark mode */
+  color: #fff; /* Button text color for dark mode */
+}
+
+#myBox{
+
+  color: white;
+  background-color: black;
+
+}
+
+.btn-dark-mode.light {
+  background-color: #fff; /* Button background color for light mode */
+  color: #333; /* Button text color for light mode */
+}
+
+.container-fluid{
+  background-color: #4682B4;
+  
+}
+
+.bg-body-tertiary{
+  background-color: #4682B4;
+}
+
+.text-center{
+  margin-bottom:16px;
+}
